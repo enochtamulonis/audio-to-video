@@ -1,25 +1,16 @@
 # README
+# Convert an Audio + Image to a Video with this app built with Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Installation Prerequistites
+if you dont have these than download you can test by running the name for example "ruby" in the terminal and it should give a response if not then you must install it
 
-Things you may want to cover:
+- Ruby 3.2.2
+- FFMPEG
+- Postgresql (psql)
 
-* Ruby version
+### running the app
+1. Create the DB
+`rails db:create`
+2. Run the server
+`bin/dev`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# audio-to-video
