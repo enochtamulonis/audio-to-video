@@ -11,7 +11,7 @@ class ApplicationController < ActionController::Base
     if session[:current_guest_user_id].present?
       session[:current_guest_user_id]
     else
-      set_current_guest_user = SecureRandom.hex(6)
+      session[:current_guest_user_id] = SecureRandom.hex(6)
     end
   end
 end
